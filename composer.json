@@ -1,0 +1,15 @@
+{
+    "name": "thiagols/mvcphp",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago Leite",
+            "email": "thiago@letsevolve.com.br"
+        }
+    ],
+    "require": {}
+}

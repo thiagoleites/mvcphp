@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+
+Rewritecond %{THE_REQUEST} public/([^\s]+) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ mvcphp/public/$1 [L,NC]
