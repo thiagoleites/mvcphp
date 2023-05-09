@@ -2,15 +2,16 @@
 
 namespace app\controller;
 
-class TesteController
+use app\core\Controller;
+
+class TesteController extends Controller
 {
 
-  public function seta(): array
+  public function index()
   {
-    return [
-      'nome' => 'João',
-      'idade' => 30
-    ];
+    $this->load('home/main', [
+      'nome' => 'João'
+    ]);
   }
     
 }

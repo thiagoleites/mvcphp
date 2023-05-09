@@ -11,5 +11,7 @@
             "email": "thiago@uol.com.br"
         }
     ],
-    "require": {}
+    "require": {
+        "twig/twig": "^3.6"
+    }
 }
